@@ -1,6 +1,5 @@
 === delicious tagroll shortcode ===
 Contributors: PerS
-Donate link: http://example.com/
 Tags: delicious, tagroll, shortcode
 Requires at least: 2.8.6
 Tested up to: 2.8.6
