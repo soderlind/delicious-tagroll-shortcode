@@ -10,11 +10,11 @@ The delicious tagroll for WordPress plugin adds a new shortcode to WordPress, th
 
 == Description ==
 
-See the [plugin home page]http://www.soderlind.no/archives/2009/11/18/delicious-tagroll-for-wordpress/)
+See the plugin home page
 
 == Installation ==
 
-See the [plugin home page]http://www.soderlind.no/archives/2009/11/18/delicious-tagroll-for-wordpress/)
+See the plugin home page
 
 == Changelog ==
 
