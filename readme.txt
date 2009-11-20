@@ -9,11 +9,18 @@ The delicious tagroll for WordPress plugin adds a new shortcode to WordPress, th
 
 == Description ==
 
+The delicious tagroll for WordPress plugin adds a new shortcode to WordPress, the `[delicious_tagroll]` shortcode
+
 See the plugin home page
 
 == Installation ==
 
 See the plugin home page
+
+== Screenshots ==
+
+1. Demo
+2. Adding the `[delicious_tagroll]` shortcode to a page
 
 == Changelog ==
 
