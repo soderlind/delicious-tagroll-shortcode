@@ -58,7 +58,7 @@ For more information, please see the [plugin home page](http://www.soderlind.no/
 1. Demo
 2. Adding the `[delicious_tagroll]` shortcode to a page
 
-== Faq ==
+== Frequently Asked Questions ==
 
 = What are shortcodes? =
 
