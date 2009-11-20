@@ -1,15 +1,18 @@
 === delicious tagroll shortcode ===
 Contributors: PerS
+Donate link: http://www.soderlind.no/donate/
 Tags: delicious, tagroll, shortcode, wpmu
 Requires at least: 2.8.6
 Tested up to: 2.8.6
 Stable tag: trunk
 
-The delicious tagroll for WordPress plugin adds a new shortcode to WordPress, the `[delicious_tagroll]` shortcode
+The delicious tagroll for WordPress plugin adds a new shortcode to WordPress, the [delicious_tagroll] shortcode
 
 == Description ==
 
 The delicious tagroll for WordPress plugin adds a new shortcode to WordPress, the `[delicious_tagroll]` shortcode
+
+Live demo: *The proof of the pudding* is using it yourself, I am: [http://www.soderlind.no/bookmarks/](http://www.soderlind.no/bookmarks/)
 
 For more information, please see the [plugin home page](http://www.soderlind.no/archives/2009/11/18/delicious-tagroll-for-wordpress/)
 
@@ -54,6 +57,19 @@ For more information, please see the [plugin home page](http://www.soderlind.no/
 
 1. Demo
 2. Adding the `[delicious_tagroll]` shortcode to a page
+
+== Faq ==
+
+= What are shortcodes? =
+
+Shortcode, a "shortcut to code", makes it easy to add funtionality to a page or post. When a page with a shortcode is saved, WordPress execute the linked code and embedds the output in the page.
+
+= Writing your own shortcode plugin =
+
+* [Smashing Magazine](http://www.smashingmagazine.com/) has a nice (as allways) article about [Mastering WordPress shortcodes](http://www.smashingmagazine.com/2009/02/02/mastering-wordpress-shortcodes/). The article has several examples you can use as a starting point for writing your own.
+* At codplex, you'll find the [Shortcode API documented](http://codex.wordpress.org/Shortcode_API)
+* Also, feel free to use this plugin as a template for you own shortcode plugin
+
 
 == Changelog ==
 
