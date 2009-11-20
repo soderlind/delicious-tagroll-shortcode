@@ -33,7 +33,7 @@ For more information, please see the [plugin home page](http://www.soderlind.no/
 * Upload the file to wp-content/mu-plugins/
 
 = Usage = 
-* Add the `[delicious_tagroll username="delicious username"]` shortcode to a post or page, see [screenshot](http://www.soderlind.no/wp-content/uploads/2009/11/ps_delicious_tagroll_edit_page.png)
+* Add the `[delicious_tagroll username="delicious username"]` shortcode to a post or page, see [screenshot](http://wordpress.org/extend/plugins/delicious-tagroll-shortcode/screenshots/) and the [plugin home page](http://www.soderlind.no/archives/2009/11/18/delicious-tagroll-for-wordpress/)
 
 = Parameters =
 * username="delicious username" (the only **mandatory** parameter, if you forget this parameter, my tagroll will be displayed)
