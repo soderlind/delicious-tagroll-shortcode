@@ -35,20 +35,24 @@ For more information, please see the [plugin home page](http://www.soderlind.no/
 = Usage = 
 * Add the `[delicious_tagroll]` shortcode to a post or page, see [screenshot](http://www.soderlind.no/wp-content/uploads/2009/11/ps_delicious_tagroll_edit_page.png)
 
-* **Mandatory parameter**: username=”delicious username” (if you forget it, my tagroll is displayed instead ;) )
-* Optional:
-      - title=”tagroll title” (default =”My Delicious Tags”, use ” ” if you don’t want a tagroll title)
-      - icon=”true or false” (default=”true”)
-      - count=”number of tags” (default=”100″)
-      - sort=”alpha or freq” (default = “alpha”)
-      - flow=”cloud or list” (default = “cloud”)
-      - showname=”true or false”(default = “true”, show your delicious name)
-      - showadd=”true or false”  (default = “true”, show add to network)
-      - showcounts=”true or false” (default = “false”, show tag counts)
-      - mincolor=”73adff”
-      - maxcolor=”3274d0″
-      - minfont=”12″
-      - maxfont=”35″
+Mandatory parameter
+
+* username=”delicious username” (if you forget it, my tagroll is displayed instead ;) )
+
+Optional parameters
+
+* title=”tagroll title” (default =”My Delicious Tags”, use ” ” if you don’t want a tagroll title)
+* icon=”true or false” (default=”true”)
+* count=”number of tags” (default=”100″)
+* sort=”alpha or freq” (default = “alpha”)
+* flow=”cloud or list” (default = “cloud”)
+* showname=”true or false”(default = “true”, show your delicious name)
+* showadd=”true or false”  (default = “true”, show add to network)
+* showcounts=”true or false” (default = “false”, show tag counts)
+* mincolor=”73adff”
+* maxcolor=”3274d0″
+* minfont=”12″
+* maxfont=”35″
 
 == Screenshots ==
 
