@@ -1,6 +1,6 @@
 === delicious tagroll shortcode ===
 Contributors: PerS
-Donate link: http://www.soderlind.no/donate/
+Donate link: http://soderlind.no/donate/
 Tags: delicious, tagroll, shortcode, wpmu
 Requires at least: 2.8.6
 Tested up to: 2.8.6
@@ -12,9 +12,9 @@ The delicious tagroll for WordPress plugin adds a new shortcode to WordPress, th
 
 The delicious tagroll for WordPress plugin adds a new shortcode to WordPress, the `[delicious_tagroll]` shortcode
 
-Live demo: *The proof of the pudding* is using it yourself, I am: [http://www.soderlind.no/bookmarks/](http://www.soderlind.no/bookmarks/)
+Live demo: *The proof of the pudding* is using it yourself, I am: [http://soderlind.no/bookmarks/](http://soderlind.no/bookmarks/)
 
-For more information, please see the [plugin home page](http://www.soderlind.no/archives/2009/11/18/delicious-tagroll-for-wordpress/)
+For more information, please see the [plugin home page](http://soderlind.no/archives/2009/11/18/delicious-tagroll-for-wordpress/)
 
 == Installation ==
 
@@ -36,7 +36,7 @@ For more information, please see the [plugin home page](http://www.soderlind.no/
 * Upload the file to wp-content/mu-plugins/
 
 = Usage = 
-* Add the `[delicious_tagroll username="delicious username"]` shortcode to a post or page, see [screenshot](http://wordpress.org/extend/plugins/delicious-tagroll-shortcode/screenshots/) and the [plugin home page](http://www.soderlind.no/archives/2009/11/18/delicious-tagroll-for-wordpress/)
+* Add the `[delicious_tagroll username="delicious username"]` shortcode to a post or page, see [screenshot](http://wordpress.org/extend/plugins/delicious-tagroll-shortcode/screenshots/) and the [plugin home page](http://soderlind.no/archives/2009/11/18/delicious-tagroll-for-wordpress/)
 
 = Parameters =
 * username="delicious username" (the only **mandatory** parameter, if you forget this parameter, my tagroll will be displayed)
