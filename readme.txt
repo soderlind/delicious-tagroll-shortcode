@@ -6,11 +6,11 @@ Requires at least: 2.8.6
 Tested up to: 2.8.6
 Stable tag: trunk
 
-The delicious tagroll for WordPress plugin adds a new shortcode to WordPress, the [delicious_tagroll] shortcode. The shortcode creates a [tag cloud](http://wordpress.org/extend/plugins/delicious-tagroll-shortcode/screenshots/) or a list of tags(see [flow parameter](http://wordpress.org/extend/plugins/delicious-tagroll-shortcode/installation/)).
+The delicious tagroll for WordPress plugin adds a new shortcode to WordPress, the [delicious_tagroll] shortcode.
 
 == Description ==
 
-The delicious tagroll for WordPress plugin adds a new shortcode to WordPress, the `[delicious_tagroll]` shortcode
+The delicious tagroll for WordPress plugin adds a new shortcode to WordPress, the `[delicious_tagroll]` shortcode.  The shortcode creates a [tag cloud](http://wordpress.org/extend/plugins/delicious-tagroll-shortcode/screenshots/) or a list of tags(see [flow parameter](http://wordpress.org/extend/plugins/delicious-tagroll-shortcode/installation/)).
 
 Live demo: *The proof of the pudding* is using it yourself, I am: [http://soderlind.no/bookmarks/](http://soderlind.no/bookmarks/)
 
