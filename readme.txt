@@ -3,7 +3,7 @@ Contributors: PerS
 Donate link: http://soderlind.no/donate/
 Tags: delicious, tagroll, shortcode, wpmu
 Requires at least: 2.8.6
-Tested up to: 3.0-RC1
+Tested up to: 3.3-B2
 Stable tag: trunk
 
 The delicious tagroll for WordPress plugin adds a new shortcode to WordPress, the [delicious_tagroll] shortcode.
@@ -41,15 +41,9 @@ For more information, please see the [plugin home page](http://soderlind.no/arch
 = Parameters =
 * username="delicious username" (the only **mandatory** parameter, if you forget this parameter, my tagroll will be displayed)
 * title="tagroll title" (default ="My Delicious Tags", use " " if you don’t want a tagroll title)
-* icon="true or false" (default="true")
 * count="number of tags" (default="100″)
 * sort="alpha or freq" (default = “alpha")
-* flow="cloud or list" (default = “cloud")
-* showname="true or false"(default = “true", show your delicious name)
-* showadd="true or false"  (default = “true", show add to network)
 * showcounts="true or false" (default = “false", show tag counts)
-* mincolor="73adff"
-* maxcolor="3274d0″
 * minfont="12″
 * maxfont="35″
 
@@ -73,6 +67,17 @@ Shortcode, a "shortcut to code", makes it easy to add funtionality to a page or 
 
 == Changelog ==
 
+= 2.0 =
+* Delicious removed their javascript feed so I had to do a total rewrite
+* Some attributes are removed from the shortcode (you can change these using the ps_delicious_tagroll.css style sheet):
+     * mincolor
+     * maxcolor
+     * flow
+* Also removed the attributes
+     * showname
+     * showadd
+* Added a new attribute:
+     * mincount (default mincount="10"), eg. show only tags with 10 or more links 
 = 1.1 =
 * changed parameter name="true" to showname="true"
 * added missing parameter showcounts="false"
