@@ -69,13 +69,14 @@ Shortcode, a "shortcut to code", makes it easy to add funtionality to a page or 
 
 = 2.0 =
 * Delicious removed their javascript feed so I had to do a total rewrite
-* Some attributes are removed from the shortcode (you can change these using the ps_delicious_tagroll.css style sheet):
+* Some attributes are removed from the shortcode (you can change these using the ps_delicious_tagroll.css style sheet in the plugin directory):
      * mincolor
      * maxcolor
      * flow
 * Also removed the attributes
      * showname
      * showadd
+     * icon
 * Added a new attribute:
      * mincount (default mincount="10"), eg. show only tags with 10 or more links 
 = 1.1 =
