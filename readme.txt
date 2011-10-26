@@ -69,7 +69,10 @@ Shortcode, a "shortcut to code", makes it easy to add funtionality to a page or 
 == Changelog ==
 
 = 2.0 =
-* Delicious removed their javascript feed so I had to do a total rewrite
+* Delicious removed their javascript feed so I had to do a [total rewrite](http://plugins.trac.wordpress.org/changeset/455721/delicious-tagroll-shortcode/trunk/ps_delicious_tagroll.php)
+     * Creates the tag cloud server-side (good for SEO) and lets you change the look and feel using the included style sheet.
+     * Uses the [Delicious RSS feed API](http://delicious.com/help/feeds)
+     * Caches the feed for one hour. Delicious might block you if you access their feed API too often.
 * Some attributes are removed from the shortcode (you can change these using the ps_delicious_tagroll.css style sheet in the plugin directory):
      * mincolor
      * maxcolor
