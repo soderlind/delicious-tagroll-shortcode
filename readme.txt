@@ -10,7 +10,7 @@ The delicious tagroll for WordPress plugin adds a new shortcode to WordPress, th
 
 == Description ==
 
-The delicious tagroll for WordPress plugin adds a new shortcode to WordPress, the `[delicious_tagroll]` shortcode.  The shortcode creates a [tag cloud](http://wordpress.org/extend/plugins/delicious-tagroll-shortcode/screenshots/) or a list of tags(see [flow parameter](http://wordpress.org/extend/plugins/delicious-tagroll-shortcode/installation/)) from your public [delicious](http://delicious.com/) [tags](http://delicious.com/tag/).
+The delicious tagroll for WordPress plugin adds a new shortcode to WordPress, the `[delicious_tagroll]` shortcode.  The shortcode creates a [tag cloud](http://wordpress.org/extend/plugins/delicious-tagroll-shortcode/screenshots/) from your public [delicious](http://delicious.com/) [tags](http://delicious.com/tag/).
 
 Live demo: [http://soderlind.no/bookmarks/](http://soderlind.no/bookmarks/)
 
@@ -44,6 +44,7 @@ For more information, please see the [plugin home page](http://soderlind.no/arch
 * count="number of tags" (default="100″)
 * sort="alpha or freq" (default = “alpha")
 * showcounts="true or false" (default = “false", show tag counts)
+* mincount (default mincount="10"), eg. show only tags with 10 or more links
 * minfont="12″
 * maxfont="35″
 
