@@ -68,6 +68,12 @@ Shortcode, a "shortcut to code", makes it easy to add funtionality to a page or 
 
 == Changelog ==
 
+= 2.1.1 =
+* Replaced LastRSS with WordPress built in methods and set/get transient for caching. See function ps_delicious_tagroll_get_tags() in ps_delicious_tagroll.php
+* Added a new optional attribute:
+     * tags (default empty), used to filter which tags you'd like to display eg. tags="javascript,jquery,nodejs"
+
+
 = 2.0 =
 * Delicious removed their javascript feed so I had to do a [total rewrite](http://plugins.trac.wordpress.org/changeset/455721/delicious-tagroll-shortcode/trunk/ps_delicious_tagroll.php)
      * Creates the tag cloud server-side (good for SEO) and lets you change the look and feel using the included style sheet.
