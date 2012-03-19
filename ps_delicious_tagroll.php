@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: delicious tagroll shortcode
-Version: 2.1.1
+Version: 2.1.2
 Plugin URI: http://www.soderlind.no/archives/2009/11/18/delicious-tagroll-for-wordpress/
 Description: Adds shortcode "[delicious_tagroll username='username']" which displays a delicious tagroll similar to <a href="http://delicious.com/help/tagrolls">http://delicious.com/help/tagrolls</a>
 Author: Per Soderlind (aka PerS)
@@ -15,6 +15,8 @@ Installation:
 	save the plugin in wp-content/plugins (and activate from Plugins) or wp-content/mu-plugins
 
 Change log
+2.1.2
+- Bugfix, You need this version if you are using PHP prior to version 5.3
 2.1.1
 - Replaced LastRSS with WordPress built in methods and set/get transient for caching. See function ps_delicious_tagroll_get_tags(). 
 - Added a new optional attribute:
@@ -164,8 +166,9 @@ if (!class_exists('ps_delicious_tagroll')) {
 		
 				$xml = new SimpleXMLElement($body);
 				
-				if ($xml->channel->item->count() > 0) {
-					$rs = json_decode(json_encode($xml->channel),TRUE);	// convert xml object to array
+				$rs = json_decode(json_encode($xml->channel),TRUE);	// convert xml object to array
+				
+				if (count($rs['item']) > 0) {
 					set_transient($key, $rs, 60*60);					//expire after 1 hour
 					update_option($key, $rs); 							//fallback storage
 				} else {

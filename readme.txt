@@ -3,7 +3,7 @@ Contributors: PerS
 Donate link: http://soderlind.no/donate/
 Tags: delicious, tagroll, shortcode, wpmu
 Requires at least: 2.8.6
-Tested up to: 3.3-B2
+Tested up to: 3.3.1
 Stable tag: trunk
 
 The delicious tagroll for WordPress plugin adds a new shortcode to WordPress, the [delicious_tagroll] shortcode.
@@ -67,7 +67,8 @@ Shortcode, a "shortcut to code", makes it easy to add funtionality to a page or 
 
 
 == Changelog ==
-
+= 2.1.2 =
+* Bugfix, You need this version if you are using PHP prior to version 5.3
 = 2.1.1 =
 * Replaced LastRSS with WordPress built in methods and set/get transient for caching. See function ps_delicious_tagroll_get_tags() in ps_delicious_tagroll.php
 * Added a new optional attribute:
