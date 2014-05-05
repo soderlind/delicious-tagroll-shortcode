@@ -4,7 +4,7 @@ Donate link: http://soderlind.no/donate/
 Tags: delicious, tagroll, shortcode, wpmu
 Requires at least: 3.5
 Tested up to: 3.9
-Stable tag: 2.1.3
+Stable tag: 2.1.4
 
 The delicious tagroll for WordPress plugin adds a new shortcode to WordPress, the [delicious_tagroll] shortcode.
 
@@ -67,6 +67,9 @@ Shortcode, a "shortcut to code", makes it easy to add funtionality to a page or 
 
 
 == Changelog ==
+= 2.1.3 =
+* Tested in WordPress 3.9, bumped version number
+* The plugin no longer supports PHP 4.x
 = 2.1.2 =
 * Bugfix, You need this version if you are using PHP prior to version 5.3
 = 2.1.1 =

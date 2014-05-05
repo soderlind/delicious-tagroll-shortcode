@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: delicious tagroll shortcode
-Version: 2.1.3
+Version: 2.1.4
 Plugin URI: http://www.soderlind.no/archives/2009/11/18/delicious-tagroll-for-wordpress/
 Description: Adds shortcode "[delicious_tagroll username='username']" which displays a delicious tagroll similar to <a href="http://delicious.com/help/tagrolls">http://delicious.com/help/tagrolls</a>
 Author: Per Soderlind (aka PerS)

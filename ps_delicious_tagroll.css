@@ -5,11 +5,13 @@
 
 .ps_delicious_tagroll {
 	text-align:center; padding:5px;
-	overflow:auto;
+	/*overflow:auto;*/
+	display: block;
+	clear:both;
 }
 .ps_delicious_tagroll ul { margin:0; padding:0; }
 .ps_delicious_tagroll ul  li {
-  list-style-type:none; float:left; margin:0 10px; height:25px; font-size: .8em;
+  list-style-type:none; float:left; height:2em; font-size: .8em;padding:0.2em;
 }
 .ps_delicious_tagroll ul  li a {
 	text-decoration:none;
