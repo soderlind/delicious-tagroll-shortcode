@@ -1,0 +1,34 @@
+{
+  "name": "delicious-tagroll-shortcode",
+  "title": "delicious tagroll shortcode",
+  "version": "2.2.0",
+  "git_tag": "2.2.0",
+  "description": "The shortcode creates a tag cloud from your public delicious tags.",
+  "main": "delicious-tagroll-shortcode.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "repository":
+    {
+      "type": "git",
+      "url": "git://github.com/soderlind/delicious-tagroll-shortcode.git"
+    },
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/soderlind/delicious-tagroll-shortcode/issues/new"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "~0.1.13",
+    "grunt-composer": "^0.4.4",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-git": "^0.3.5",
+    "grunt-push-svn": "^0.2.1",
+    "grunt-remove": "^0.1.0",
+    "grunt-svn-export": "^0.1.7",
+    "grunt-text-replace": "^0.4.0",
+    "grunt-wp-i18n": "^0.5.2"
+  }
+}

@@ -3,8 +3,8 @@ Contributors: PerS
 Donate link: http://soderlind.no/donate/
 Tags: delicious, tagroll, shortcode, wpmu
 Requires at least: 3.5
-Tested up to: 3.9
-Stable tag: 2.1.4
+Tested up to: 4.5
+Stable tag: 2.1.5
 
 The delicious tagroll for WordPress plugin adds a new shortcode to WordPress, the [delicious_tagroll] shortcode.
 
@@ -35,7 +35,7 @@ For more information, please see the [plugin home page](http://soderlind.no/arch
 * If you want to change the shortcode defaults, edit the `ps_delicious_tagroll.php` file
 * Upload the file to wp-content/mu-plugins/
 
-= Usage = 
+= Usage =
 * Add the `[delicious_tagroll username="delicious username"]` shortcode to a post or page, see [screenshot](http://wordpress.org/extend/plugins/delicious-tagroll-shortcode/screenshots/) and the [plugin home page](http://soderlind.no/archives/2009/11/18/delicious-tagroll-for-wordpress/)
 
 = Parameters =
@@ -67,6 +67,12 @@ Shortcode, a "shortcut to code", makes it easy to add funtionality to a page or 
 
 
 == Changelog ==
+= 2.2.0 =
+* Add scripts to shortcode only when the shortcode is used.
+* Update plugin for [WordPress Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/).
+* Tested & found compatible with WP 4.5.
+= 2.1.4 =
+* Tested in WordPress 4.3
 = 2.1.3 =
 * Tested in WordPress 3.9, bumped version number
 * The plugin no longer supports PHP 4.x
@@ -92,10 +98,10 @@ Shortcode, a "shortcut to code", makes it easy to add funtionality to a page or 
      * showadd
      * icon
 * Added a new attribute:
-     * mincount (default mincount="10"), eg. show only tags with 10 or more links 
+     * mincount (default mincount="10"), eg. show only tags with 10 or more links
 = 1.1 =
 * changed parameter name="true" to showname="true"
 * added missing parameter showcounts="false"
 
-= 1.0 = 
+= 1.0 =
 * initial release
