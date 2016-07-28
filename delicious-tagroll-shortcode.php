@@ -116,7 +116,7 @@ class PS_Delicious_Tagroll {
 
 		$key = 'delicious_tagroll_' . $username;
 
-		$feed_url = sprintf( 'http://feeds.delicious.com/v2/rss/tags/%s?count=%s',$username,$count );
+		$feed_url = sprintf( 'http://feeds.del.icio.us/v2/rss/tags/%s?count=%s',$username,$count );
 
 		$rs = get_transient( $key );									// read "cache"
 		if ( false != $rs ) { return $rs; }
