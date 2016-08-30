@@ -31,6 +31,7 @@ matrix:
     - php: 'hhvm'
 
 before_script:
+  - phpenv config-rm xdebug.ini
   - export PHPCS_DIR=/tmp/phpcs
   - export WPCS_DIR=/tmp/wpcs
   # Install CodeSniffer for WordPress Coding Standards checks.
