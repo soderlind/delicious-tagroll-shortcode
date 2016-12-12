@@ -3,8 +3,8 @@ Contributors: PerS
 Donate link: http://soderlind.no/donate/
 Tags: delicious, tagroll, shortcode, wpmu
 Requires at least: 3.5
-Tested up to: 4.6
-Stable tag: 2.2.1
+Tested up to: 4.7
+Stable tag: 2.2.2
 
 The delicious tagroll for WordPress plugin adds a new shortcode to WordPress, the [delicious_tagroll] shortcode.
 
@@ -67,6 +67,9 @@ Shortcode, a "shortcut to code", makes it easy to add funtionality to a page or 
 
 
 == Changelog ==
+
+= 2.2.2 =
+* Tested & found compatible with WP 4.7.
 = 2.2.1 =
 * Change feed URL to feeds.del.icio.us
 = 2.2.0 =

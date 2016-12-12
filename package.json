@@ -1,8 +1,8 @@
 {
   "name": "delicious-tagroll-shortcode",
   "title": "delicious tagroll shortcode",
-  "version": "2.2.1",
-  "git_tag": "2.2.1",
+  "version": "2.2.2",
+  "git_tag": "2.2.2",
   "description": "The shortcode creates a tag cloud from your public delicious tags.",
   "main": "delicious-tagroll-shortcode.php",
   "scripts": {
