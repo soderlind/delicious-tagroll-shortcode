@@ -1,0 +1,8 @@
+{
+    "name": "soderlind/delicious-tagroll-shortcode",
+    "description": "delicious tagroll shortcode",
+    "type": "wordpress-plugin",
+    "homepage": "https://github.com/soderlind/delicious-tagroll-shortcode",
+    "license": "GPL-2.0-or-later",
+    "require": {}
+}
